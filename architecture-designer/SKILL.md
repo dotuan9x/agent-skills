@@ -1,6 +1,12 @@
 ---
 name: architecture-designer
-description: Use when designing new system architecture, reviewing existing designs, or making architectural decisions. Invoke for system design, architecture review, design patterns, ADRs, scalability planning.
+description: >
+  Use when designing new system architecture, reviewing existing designs, or making architectural
+  decisions. Invoke for system design, architecture reviews, design patterns, ADRs, scalability
+  planning, and technology evaluation. Also trigger this skill when the user asks questions like
+  "how should I structure this?", "should I use microservices or a monolith?", "what database
+  should I pick?", "how do I make this scale?", or "can you review my architecture?" — even if
+  they don't use the word "architecture" explicitly.
 license: MIT
 metadata:
   author: https://github.com/dotuan9x

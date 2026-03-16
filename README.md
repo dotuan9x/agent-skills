@@ -8,9 +8,9 @@ Each skill is a self-contained prompt-based tool that activates automatically wh
 
 | Skill | Triggers | Description |
 |-------|----------|-------------|
-| [architecture-designer](architecture-designer/) | `architecture`, `system design`, `ADR`, `microservices`, `scalability` | Acts as a principal architect with 15+ years of experience. Designs systems, evaluates trade-offs, and documents decisions with ADRs. |
-| [bruno-api-client](bruno-api-client/) | `generate bruno collection`, `bruno api testing`, `create bru files` | Scans API routes (Express, Next.js, Fastify, etc.) and generates a fully organized [Bruno](https://www.usebruno.com/) collection with environments, auth, and folder structure. |
-| [readme-file-generator](readme-file-generator/) | `create README`, `update README`, `generate readme` | Writes comprehensive, well-structured `README.md` files following open-source best practices. |
+| [architecture-designer](architecture-designer/) | `architecture`, `system design`, `ADR`, `microservices`, `scalability`, `database selection`, `how should I structure this?` | Acts as a principal architect with 15+ years of experience. Designs systems, evaluates trade-offs, and documents decisions with ADRs. |
+| [bruno-api-client](bruno-api-client/) | `bruno`, `.bru`, `generate collection`, `api testing`, `postman alternative`, `migrate from Postman/Insomnia` | Scans API routes (Express, Next.js, Fastify, etc.) and generates a fully organized [Bruno](https://www.usebruno.com/) collection with environments, auth, and folder structure. |
+| [readme-file-generator](readme-file-generator/) | `readme`, `README.md`, `update docs`, `write docs`, `document project`, `my readme is outdated` | Writes comprehensive, well-structured `README.md` files following open-source best practices. |
 
 ## Installation
 
