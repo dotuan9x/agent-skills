@@ -10,6 +10,7 @@ Each skill is a self-contained prompt-based tool that activates automatically wh
 |-------|----------|-------------|
 | [architecture-designer](architecture-designer/) | `architecture`, `system design`, `ADR`, `microservices`, `scalability`, `database selection`, `how should I structure this?` | Acts as a principal architect with 15+ years of experience. Designs systems, evaluates trade-offs, and documents decisions with ADRs. |
 | [bruno-api-client](bruno-api-client/) | `bruno`, `.bru`, `generate collection`, `api testing`, `postman alternative`, `migrate from Postman/Insomnia` | Scans API routes (Express, Next.js, Fastify, etc.) and generates a fully organized [Bruno](https://www.usebruno.com/) collection with environments, auth, and folder structure. |
+| [chrome-devtools](chrome-devtools/) | `browser automation`, `screenshot`, `devtools`, `debug page`, `network traffic`, `performance profiling` | Expert-level browser control using Chrome DevTools MCP. Navigates pages, captures screenshots, inspects console/network, and profiles performance. |
 | [readme-file-generator](readme-file-generator/) | `readme`, `README.md`, `update docs`, `write docs`, `document project`, `my readme is outdated` | Writes comprehensive, well-structured `README.md` files following open-source best practices. |
 
 ## Installation
@@ -19,6 +20,7 @@ Install individual skills using [skills.sh](https://skills.sh):
 ```bash
 npx skills add dotuan9x/agent-skills/architecture-designer
 npx skills add dotuan9x/agent-skills/bruno-api-client
+npx skills add dotuan9x/agent-skills/chrome-devtools
 npx skills add dotuan9x/agent-skills/readme-file-generator
 ```
 
@@ -27,6 +29,7 @@ After installation, the skill activates automatically when you describe a matchi
 ```
 /architecture-designer  Design a microservices system for an e-commerce platform
 /bruno-api-client       Generate a Bruno collection from my Express routes in src/routes/
+/chrome-devtools        Take a screenshot of the login page and check for console errors
 /readme-file-generator  Create a README for this project
 ```
 
